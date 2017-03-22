@@ -11,4 +11,11 @@ public class HelloWildFlyController {
     public String sayHello(){
         return ("Hello, SpringBoot on Wildfly");
     }
+
+
+
+    @RequestMapping("nisse")
+    public String nisse(){
+        return ("Nisse, SpringBoot on Wildfly");
+    }
 }
